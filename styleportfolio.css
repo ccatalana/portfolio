@@ -1,9 +1,52 @@
 header{
-  background-color: #93AFF7;
-  height: 400px;
-  font-family: Verdana;
-  color: #FFFFFF;
+  background-image: url("images/background2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
 }
-h3{
-padding: 150 400 150 50;
+.icons{
+  width: 30px;
+  padding-right: 20px;
+}
+h1{
+  font-family: Verdana;
+  color: #A52E50;
+  font-size: 60px;
+  padding-top: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.box-icons {
+  flex-direction: row;
+}
+h2{
+  font-family: Verdana;
+  color: #A52E50;
+  margin-top: 100px;
+}
+.general-text {
+  font-family: Verdana;
+  color: #4A4A4A;
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.profile-picture {
+  max-height: 300px;
+  height: 300px;
+}
+
+.profile-picture .me {
+  height: 75vh;
+}
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
